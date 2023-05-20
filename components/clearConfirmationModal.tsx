@@ -26,7 +26,7 @@ export function ClearConfirmation(props: {isOpen: boolean, onRequestClose: ()=>v
 				}}
 			>
 				<Typography style={{marginBottom: 10}} variant="h6">Are you sure?</Typography>
-				<Typography style={{marginBottom: 10}}>Clearing an entire table could erase a lot of data and could also make the creator really sad.</Typography>
+				<Typography style={{marginBottom: 10}}>Clearing an entire table could erase a lot of data and could also make the creator really sad but prince says if u wanna break a chat go ahead ok :).</Typography>
 				<Button variant="outlined" color="error" fullWidth disabled={loading} onClick={()=>{
 					setLoading(true);
 					props.submit(()=>{
