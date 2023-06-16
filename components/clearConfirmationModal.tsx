@@ -25,15 +25,15 @@ export function ClearConfirmation(props: {isOpen: boolean, onRequestClose: ()=>v
 					p: 4,
 				}}
 			>
-				<Typography style={{marginBottom: 10}} variant="h6">Are you sure?</Typography>
-				<Typography style={{marginBottom: 10}}>Clearing an entire table could erase a lot of data and could also make the creator really sad.</Typography>
+				<Typography style={{marginBottom: 10}} variant="h6">Are you really sure about this bc u cannot go back if u do?</Typography>
+				<Typography style={{marginBottom: 10}}>Clearing an entire table could erase a lot of data and could also make the creator really sad but i made it so who cares its fun to press this button.</Typography>
 				<Button variant="outlined" color="error" fullWidth disabled={loading} onClick={()=>{
 					setLoading(true);
 					props.submit(()=>{
 						setLoading(false);
 						props.onRequestClose();
 					})
-				}}>Clear Table</Button>
+				}}>Clear Table :)</Button>
 				{loading?<LinearProgress/>:<></>}
 			</Box>
 		</Modal>
