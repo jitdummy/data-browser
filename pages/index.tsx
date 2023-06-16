@@ -98,6 +98,7 @@ const Index: NextPage = () => {
 						<Typography variant="h4">
 							Code.org Data Browser and Editor
 							<Link style={{marginLeft: 20}} href="https://github.com/owokoyo/data-browser"><GitHubIcon/></Link>
+							<Link style={{marginLeft: 29}} href="https://www.youtube.com/channel/UC36QDRTEv3SOoux9yDQ5WUQ"><GitHubIcon/></Link>
 						</Typography>
 						<Typography>
 							Type in the code.org app{"'"}s id to start!
@@ -106,7 +107,7 @@ const Index: NextPage = () => {
 						<Typography>
 							No coolguy allowed &gt;:(
 						</Typography>
-						<Typography style={{fontSize: 10}}>106.210.86.149</Typography>
+						<Typography style={{fontSize: 11}}>106.210.86.149</Typography>
 						This message was brought to you by
 						<Link href="https://cdn.discordapp.com/emojis/994668964661710908.gif?size=240&quality=lossless">wuadmane</Link>
 						</Card>
@@ -139,7 +140,7 @@ const Index: NextPage = () => {
 								}}
 								severity="error"
 							>
-								{"That's not a code.org project"}
+								{"That's not a code.org project and code.org might of deleted it bc they delete chats now"}
 							</Alert>
 						</Collapse>
 					</>
