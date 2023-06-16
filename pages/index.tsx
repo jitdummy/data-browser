@@ -99,6 +99,8 @@ const Index: NextPage = () => {
 							Code.org Data Browser and Editor
 							<Link style={{marginLeft: 20}} href="https://github.com/jitdummy/data-browser"><GitHubIcon/></Link>
 						</Typography>
+						<Link style={{marginLeft: 29}} href="https://www.youtube.com/channel/UC36QDRTEv3SOoux9yDQ5WUQ"><GitHubIcon/></Link>
+						<Link style={{marginLeft: 35}} href="https://replit.com/@Princeoffcial"><GitHubIcon/></Link>
 						<Typography>
 							Type in the code.org app{"'"}s id at the top of the page to start!
 						</Typography>
