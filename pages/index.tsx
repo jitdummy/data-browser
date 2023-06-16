@@ -82,7 +82,7 @@ const Index: NextPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Data Browser</title>
+				<title>P.D V.2</title>
 			</Head>
 			<div style={{ margin: 20 }}>
 				{firebaseStorage ? (
@@ -97,18 +97,18 @@ const Index: NextPage = () => {
 					<>
 						<Typography variant="h4">
 							Code.org Data Browser and Editor
-							<Link style={{marginLeft: 20}} href="https://github.com/owokoyo/data-browser"><GitHubIcon/></Link>
-							<Link style={{marginLeft: 29}} href="https://www.youtube.com/channel/UC36QDRTEv3SOoux9yDQ5WUQ"><GitHubIcon/></Link>
-						</Typography>
+							<Link style={{marginLeft: 20}} href="https://github.com/jitdummy"><GitHubIcon/></Link>
+						</Typography>click the link right here>
+						<Link style={{marginLeft: 29}} href="https://www.youtube.com/channel/UC36QDRTEv3SOoux9yDQ5WUQ"><GitHubIcon/></Link>
 						<Typography>
 							Type in the code.org app{"'"}s id to start!
 						</Typography>
 						<Card>
 						<Typography>
-							No coolguy allowed &gt;:(
+							Evreyone Aloud &gt;:(
 						</Typography>
-						<Typography style={{fontSize: 11}}>106.210.86.149</Typography>
-						This message was brought to you by
+						<Typography style={{fontSize: 11}}>V.9</Typography>
+						
 						<Link href="https://cdn.discordapp.com/emojis/994668964661710908.gif?size=240&quality=lossless">wuadmane</Link>
 						</Card>
 						<Input
