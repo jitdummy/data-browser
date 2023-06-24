@@ -22,7 +22,7 @@ export function CreateTableModal(props: {isOpen: boolean, onRequestClose: ()=>vo
 					left: "50%",
 					transform: "translate(-50%, -50%)",
 					width: 400,
-					bgcolor: "black",
+					bgcolor: "background.paper",
 					boxShadow: 24,
 					p: 4,
 				}}
