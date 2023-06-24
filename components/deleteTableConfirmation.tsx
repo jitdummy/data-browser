@@ -20,12 +20,12 @@ export function DeleteTableConfirmation(props: {isOpen: boolean, onRequestClose:
 					left: "50%",
 					transform: "translate(-50%, -50%)",
 					width: 400,
-					bgcolor: "background.paper",
+					bgcolor: "black",
 					boxShadow: 24,
 					p: 4,
 				}}
 			>
-				<Typography style={{marginBottom: 10}} variant="h6">Are you sure?</Typography>
+				<Typography style={{marginBottom: 10}} variant="h6"> so u wanna do this ok so Are you sure?</Typography>
 				<Typography style={{marginBottom: 10}}>You are deleting an entire table along with all its entries, columns, and its name. This will make the creator really sad.</Typography>
 				<Button variant="outlined" color="error" fullWidth disabled={loading} onClick={()=>{
 					setLoading(true);
