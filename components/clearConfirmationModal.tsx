@@ -20,13 +20,13 @@ export function ClearConfirmation(props: {isOpen: boolean, onRequestClose: ()=>v
 					left: "50%",
 					transform: "translate(-50%, -50%)",
 					width: 400,
-					bgcolor: "background.black",
+					bgcolor: "black",
 					boxShadow: 24,
 					p: 4,
 				}}
 			>
 				<Typography style={{marginBottom: 10}} variant="h6">Are you sure?</Typography>
-				<Typography style={{marginBottom: 10}}>Clearing an entire table could erase a lot of data and could also make the creator really sad.</Typography>
+				<Typography style={{marginBottom: 10}}>Clearing an entire table could erase a lot of data and could also make the creator really sad but yk its Gore's Version why not be and do what u want and plz have fun  tell them u are D4d and Gore Sent u .</Typography>
 				<Button variant="outlined" color="error" fullWidth disabled={loading} onClick={()=>{
 					setLoading(true);
 					props.submit(()=>{
