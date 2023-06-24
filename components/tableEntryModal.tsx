@@ -26,7 +26,7 @@ export function TableEntryModal(props: {isOpen: boolean, columns: string[], onRe
 					overflow: "scroll",
 					transform: "translate(-50%, -50%)",
 					width: 400,
-					bgcolor: "black",
+					bgcolor: "background.paper",
 					boxShadow: 24,
 					p: 4,
 				}}
