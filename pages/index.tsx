@@ -96,7 +96,7 @@ const Index: NextPage = () => {
 				) : (
 					<>
 						<Typography variant="h4">
-							Code.org Data Browser and Editor
+							PRINCE BROWSER
 							<Link style={{marginLeft: 20}} href="https://github.com/jitdummy/data-browser"><GitHubIcon/></Link>
 						</Typography>
 						<Typography>
